@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url('./Fonts/CursedTimer.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vendera';
+    src: url('./Fonts/Vendera.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.background-points {
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    border-radius: 5px;
+    background-color: #080001;
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+
+h1 {
+    color: #F94F6D;
+    font-family: Cursed Timer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+.allignment {
+    display: flex;
+    justify-content: space-between;  /* oder space-around/space-evenly, je nach gewünschtem Effekt */
+    align-items: center;
+    width: 100%;                    /* oder eine feste/maximale Breite */
+    gap: 9px;                      
+}
+.points-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: #1B244A;
+    font-family: Cursed Timer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9AABD8;
+    padding: 9px 8px 10px 7px;
+}
+
